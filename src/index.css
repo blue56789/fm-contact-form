@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    @font-face {
+        font-family: "Karla";
+        src: url("../assets/fonts/Karla-VariableFont_wght.ttf");
+    }
+}
+@layer components {
+    .block-input {
+        @apply block w-full px-4 py-2 rounded-md border border-grey-dark hover:outline focus:outline outline-green-medium outline-1 outline-offset-0;
+    }
+}
